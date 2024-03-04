@@ -42,11 +42,6 @@ public class SnakeController : MonoBehaviour
         transform.Rotate(Vector3.up * steerDirection * steerSpeed * Time.deltaTime);
 
         MoveBody();
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            GrowSnake();
-        }
     }
 
     void OnStickChanged(object sender, StickEventArgs e)

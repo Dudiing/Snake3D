@@ -35,8 +35,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void LoadSnake3DScene()
+    public void LoadGame()
     {
-        SceneManager.LoadScene("Snake3D");
+        SceneManager.LoadScene("Game");
     }
 }

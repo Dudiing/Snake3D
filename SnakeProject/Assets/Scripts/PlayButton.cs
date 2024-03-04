@@ -12,6 +12,6 @@ public class PlayButton : MonoBehaviour
         Button playButton = GetComponent<Button>();
 
         // Asignar la función LoadSnake3DScene al evento de clic del botón
-        playButton.onClick.AddListener(GameManager.Instance.LoadSnake3DScene);
+        playButton.onClick.AddListener(GameManager.Instance.LoadGame);
     }
 }
